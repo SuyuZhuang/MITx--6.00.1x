@@ -1,7 +1,6 @@
 ## Loop
-
-    range(n) = [0,1,2,3,...,n-1]
-    range(m,n) = [m,m+1,m+2,...,n-1]
+##     range(n) = [0,1,2,3,...,n-1]
+##     range(m,n) = [m,m+1,m+2,...,n-1]
     
 ## An example
 
@@ -14,6 +13,7 @@ while (iterLeft != 0):
 print (str(x)+'*'+str(x)+'='+str(ans))
 
 
+
 ## L3 Problem 2A
 ## a while loop.
 
@@ -23,6 +23,8 @@ while i <6:
     i = i +1
 print('Goodbye!')
 
+
+
 ## L3 Problem 2B
 ## a while loop.
 print('Hello!')
@@ -30,6 +32,8 @@ i = 5
 while i >0:
     print(i*2)
     i = i-1
+    
+    
 
 ## L3 Problem 2C
 ## Write a while loop that sums the values 1 through 'end'
@@ -40,6 +44,8 @@ while i<end+1:
     sumn = sumn+i
     i=i+1
 print sumn
+
+
 
 ## Floating point accuracy
 num = 2
@@ -57,6 +63,9 @@ while num > 0:
 if isNeg:
     result = '-' + result
 print result
+
+
+
 
 ## Fractions
 
@@ -84,6 +93,8 @@ result = result[0:-p]+'.'+result[-p:]  ## ?????
 print('The binary representation of the decimal '+str(x)+' is '+str(result))
 
 
+
+
 ## Exhaustive enumeration
 x = 25
 epsilon = 0.01
@@ -100,8 +111,11 @@ else:
     print(str(ans)+' is close to the square root of '+str(x))
   
 
+
+
+
 ## Bisection Search
-work well on problems with 'ordering' property
+## work well on problems with 'ordering' property
 ## Example of square root
 
 x = 25
@@ -122,21 +136,21 @@ print('numGuesses = '+str(numGuesses))
 print(str(ans)+' is close to square root of '+str(x))
 
 
-### Printing on the same line
-Notice how if we have two print statements        
-print "Hi"
-print "there"
 
-The output will have each string on a separate line:
-Hi
-there
-                
-Now try ading a comma after the print statement:
-print "Hi",
-print "there"
-                
-The output will place the subsequent string on the same line:
-Hi there
+### Printing on the same line
+## Notice how if we have two print statements        
+## print "Hi"
+## print "there"
+## The output will have each string on a separate line:
+## Hi
+## there
+## Now try ading a comma after the print statement:
+## print "Hi",
+## print "there"
+## The output will place the subsequent string on the same line:
+## Hi there
+
+
 ## Secret Number
 
 print("Please think of a number between 0 and 100!")
@@ -160,9 +174,14 @@ while (not n):
     elif t=='l': 
         low = ans
         ans = (low+high)/2
-        
+
+
+
+
+
   ## NEWTON-RAPHSON ROOT FINDING
-  epsilon = 0.01
+ 
+epsilon = 0.01
 y = 24.0
 guess = y/2.0
 
