@@ -1,24 +1,23 @@
-# Each Object has a Type
-Objects are : 
-
-        1.Scalar : int, float, bool
-        2.Non-Scalar: str
-Expressions: objects + operators
-        1. +, -, *, /(note), **, %
-        2. Parentheses
-        3. Comparison >, >=, <, <=, ==, !=
-        4. and, or, not a
-Type conversions
-        1. float(3) -- 3.0
-        2. int(3.9) -- 3
-Operations on Strings (Operator Overload)
-        1. 3 * 'a'
-        2. 'a' + 'b' 
-        3. 'a' + str(123)
-        4. len('abc)
-Extracting parts of strings
-        1. Indexing  'abc'[0], 'abc'[-1] - 'c'
-        2. Slicing   'abc'[1:3] - 'bc'
+## Each Object has a Type
+## Objects are : 
+##         1.Scalar : int, float, bool
+##         2.Non-Scalar: str
+## Expressions: objects + operators
+##         1. +, -, *, /(note), **, %
+##         2. Parentheses
+##         3. Comparison >, >=, <, <=, ==, !=
+##         4. and, or, not a
+## Type conversions
+##         1. float(3) -- 3.0
+##         2. int(3.9) -- 3
+## Operations on Strings (Operator Overload)
+##         1. 3 * 'a'
+##         2. 'a' + 'b' 
+##         3. 'a' + str(123)
+##         4. len('abc)
+## Extracting parts of strings
+##        1. Indexing  'abc'[0], 'abc'[-1] - 'c'
+##         2. Slicing   'abc'[1:3] - 'bc'
         
         
 ## Lect 2.5, slide 4
@@ -33,7 +32,7 @@ print (y*y)
 
 
 ## Branching Programs
-simplest branching statement: conditional: a test; a block; an optional block
+## simplest branching statement: conditional: a test; a block; an optional block
 ## Lect 2.6, slide 2
 
 x = int(raw_input('Enter an integer: '))
